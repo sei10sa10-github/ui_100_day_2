@@ -11,7 +11,7 @@ class FadeinAnimation extends StatelessWidget {
   final double translationEnd;
   final Widget child;
 
-  final MultiTween<AniProps> _tween;
+  final MultiTween<AniProps> tween;
 
   FadeinAnimation({
     Key key,
@@ -22,7 +22,7 @@ class FadeinAnimation extends StatelessWidget {
     this.translationBegin = 120,
     this.translationEnd = 0,
     this.child,
-  })  : _tween = MultiTween<AniProps>()
+  })  : tween = MultiTween<AniProps>()
           ..add(AniProps.translation, translationBegin.tweenTo(translationEnd),
               duration.milliseconds)
           ..add(AniProps.opacity, opacityBegin.tweenTo(opacityEnd),
@@ -32,9 +32,9 @@ class FadeinAnimation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PlayAnimation<MultiTweenValues<AniProps>>(
-      tween: _tween,
+      tween: tween,
       delay: delay,
-      duration: _tween.duration,
+      duration: tween.duration,
       child: child,
       builder: (context, child, animationValue) {
         return Transform.translate(

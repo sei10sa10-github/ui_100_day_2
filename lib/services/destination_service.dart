@@ -10,7 +10,6 @@ class DestinationService {
     final List<dynamic> jsonList = json.decode(jsonString);
     final results = jsonList.map((e) {
       final destination = Destination.fromJson(e);
-      print(destination);
       return destination;
     }).toList();
     return results;
