@@ -1,0 +1,26 @@
+[
+    {
+        "image": "assets/images/one.jpg",
+        "name": "Yosemite National Park",
+        "description": "Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.",
+        "reviewRating": 4.5
+    },
+    {
+        "image": "assets/images/two.jpg",
+        "name": "Golden Gate Bridge",
+        "description": "The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.",
+        "reviewRating": 4.0
+    },
+    {
+        "image": "assets/images/three.jpg",
+        "name": "Sedona",
+        "description": "Sedona is regularly described as one of America's most beautiful places. Nowhere else will you find a landscape as dramatically colorful.",
+        "reviewRating": 4.8
+    },
+    {
+        "image": "assets/images/four.jpg",
+        "name": "Savannah",
+        "description": "Savannah, with its Spanish moss, Southern accents and creepy graveyards, is a lot like Charleston, South Carolina. But this city about 100 miles to the south has an eccentric streak.",
+        "reviewRating": 4.5
+    }
+]
